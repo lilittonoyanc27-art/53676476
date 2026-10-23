@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', 'Noto Sans Armenian', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #1a0307;
+    color: #fef3c7;
+    overflow-x: hidden;
+  }
+}
+
+.font-armenian {
+  font-family: 'Noto Sans Armenian', 'Plus Jakarta Sans', sans-serif;
+}
+
+.font-heading {
+  font-family: 'Space Grotesk', 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Custom scrollbars with burgundy & gold accents */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #23040a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7f1d1d;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #dc2626;
+}

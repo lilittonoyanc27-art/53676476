@@ -1,0 +1,6 @@
+{
+  "name": "Aprende Español con Natalia y Facundo",
+  "description": "Aplicación interactiva para aprender español rioplatense con Natalia Oreiro y Facundo Arana, con subtítulos sincronizados, traducciones al armenio, quiz y juegos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
